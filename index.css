@@ -1,0 +1,26 @@
+body {
+    margin: 0;
+    font-family: Inter;
+    font-weight: 400;
+    font-size: 20px;
+    background-image: url("images/nature.jpg");
+    background-size: cover; 
+    min-height: 100vh; 
+    display: flex;
+    justify-content: center;
+    align-items: center;  
+}
+
+h2 {
+  text-align: right;
+}
+
+.card {
+  background: #ffffff;
+  width: 700px;
+  padding: 30px 30px 60px 30px;
+}
+
+.card:hover {
+  background: green;
+}
